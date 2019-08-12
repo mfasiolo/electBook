@@ -1,0 +1,11 @@
+Package: electBook
+Title: Code and data for electricity book
+Version: 0.0.1
+Authors@R: c(person("Matteo", "Fasiolo", email = "matteo.fasiolo@gmail.com", role = c("aut", "cre")))
+Description: Code and data for electricity book.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
+Suggests: testthat
+Roxygen: list(markdown = TRUE)
