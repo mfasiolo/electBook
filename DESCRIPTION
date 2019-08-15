@@ -1,7 +1,11 @@
 Package: electBook
 Title: Code and data for electricity book
 Version: 0.0.1
-Authors@R: c(person("Matteo", "Fasiolo", email = "matteo.fasiolo@gmail.com", role = c("aut", "cre")))
+Authors@R: c(person("Matteo", "Fasiolo", email = "matteo.fasiolo@gmail.com", role = c("aut", "cre")),
+             person("Yannig", "Goude", role = c("aut")), 
+             person("Jean-Michel", "Poggi", role = c("aut")), 
+             person("Jairo", "Cugliari", role = c("aut")),
+             person("Anestis", "Antoniadis", role = c("aut")))
 Description: Code and data for electricity book.
 License: GPL-3
 Encoding: UTF-8
