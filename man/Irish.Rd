@@ -14,7 +14,7 @@ data(Irish)
 \describe{
 \item{ID}{individual customer ID;}
 \item{meanDem}{the mean demand of each customer;}
-\item{SOCIALCLASS, OWNERSHIP, ...}{see \url{http://www.ucd.ie/issda/data/commissionforenergyregulationcer/ for details}}
+\item{SOCIALCLASS, OWNERSHIP, ...}{see \url{http://www.ucd.ie/issda/data/commissionforenergyregulationcer/} for details}
 \code{Irish$extra} is \code{data.frame} containing the following variables:
 \item{time}{progressive time counter;}
 \item{toy}{the time of year from 0 (1st Jan) to 1 (31st Dec);}

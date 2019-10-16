@@ -24,6 +24,6 @@ data(IrishAgg)
 
 head(IrishAgg)
   
-# Demand for 10 customers over one week periods
+# Aggregate demand over one week
 plot(IrishAgg$dem[1:(48*7)], type = 'l')
 }
