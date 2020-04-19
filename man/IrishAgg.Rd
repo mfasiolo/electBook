@@ -3,7 +3,7 @@
 %- Also NEED an `\alias' for EACH other topic documented here.
 \title{Irish aggregate demand data}
 \description{
-Data set on aggregate electricity demand from the customer in the \code{Irish} data set (see \code{?Irish}).
+Data set on aggregate electricity demand from the customers in the \code{Irish} data set (see \code{?Irish}).
 } %- end description
 
 \usage{
