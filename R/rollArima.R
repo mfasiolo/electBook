@@ -1,4 +1,17 @@
-rollArima<-function (arima.model, ynew, horizon = 1) 
+#'
+#' Rolling Arima model fitting
+#'
+#' @param arima.model a time series or time series model for which forecasts are required.
+#' @param ynew vector of response variables.
+#' @param horizon number of periods for forecasting.
+#' @return A vector of forecasts from a rolling Arima model.
+#' @importFrom forecast forecast Arima
+#' @name rollArima
+#' @rdname rollArima
+#' @export rollArima
+#' @export
+#'
+rollArima <- function(arima.model, ynew, horizon = 1) 
 {
   prevARIMA <- array(0, dim = length(ynew))
   prevARIMA[1] <- forecast(arima.model, h = horizon)$mean[horizon]
